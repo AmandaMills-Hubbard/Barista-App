@@ -7,7 +7,7 @@
 
 1. run `node server.js`
 2. Navigate to `localhost:8080`
-3. To select a drink click and paste! (honestly the best part of my code)
+3. To select a drink click and paste! (honestly the best part of my app)
 
 ## Credit
 
