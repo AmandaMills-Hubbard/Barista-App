@@ -7,8 +7,16 @@
 4. Navigate to `localhost:8080`
 5. To select a drink click and paste! (honestly the best part of my app)
 
-## Credit
+## Languages used
 
+*HTML 
+*CSS3 
+*JavaScript 
+*Node.js 
+*Express 
+*MongoDB
+
+## Credit
 
 Credit for cool copy code from https://stackoverflow.com/questions/45071353/copy-text-string-on-click 
 (User had no name :/)
