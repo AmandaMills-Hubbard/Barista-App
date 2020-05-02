@@ -1,22 +1,13 @@
-![img](bar.png)
-## To run on your server:
+## Installation
 
 1. Clone repo
 2. run `npm install`
-3. run `node server.js`
-4. Navigate to `localhost:8080`
-5. To select a drink click and paste! (honestly the best part of my app)
 
-## Languages used
+## Usage
 
-*HTML 
-*CSS3 
-*JavaScript 
-*Node.js 
-*Express 
-*MongoDB
+1. run `node server.js`
+2. Navigate to `localhost:8080`
 
 ## Credit
 
-Credit for cool copy code from https://stackoverflow.com/questions/45071353/copy-text-string-on-click 
-(User had no name :/)
+Modified from Scotch.io's auth tutorial

@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: saddlebrown;
+}
+img{
+  height: 200px;
+}
+#jumbo{
+    margin-top: 105px;
+    background-color: #333;
+}
+.logo li{
+    list-style: none;
+}
+.logo{
+  background-image: url(img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: darkgray;
+  margin-bottom: 20px;
+
+}
+.instruct h3{
+  font-size:1em;
+}
+.menu{
+  margin-left: 50%;
+
+}
+.menu strong{
+color: #333;
+}
+.menu strong:hover{
+  text-shadow: #FC0 1px 0 10px;
+}
+.menu span{
+  color: rgb(41, 44, 52);
+  font-size: 1.2em;
+}
+
+h1, label, a, h3{
+  color: rgb(51, 51, 51);
+}
+ #none{
+   display:none;
+ }
+.orders.done {
+background-color: #bada55;
+}
+.red{
+color: red;
+}
+@media only screen and (max-width: 1199px){
+  .logo{
+    background-image: url();
+  }
+  .menu{
+    margin-left: 20%;
+  }

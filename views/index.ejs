@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <title>Moon Coffee</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <section class="logo">
+<section class="menu">
+  <h1>Moon Coffee Menu</h1>
+  <section class="instruct">
+    <h3> <em>1. Click to select your drink 2. Paste into "order" feild 3. Add your name and submit!</em></h3>
+  </section>
+
+  <ul>
+    <li><h3>Coffee</h3></li>
+    <li><span><strong>Espresso</strong></span></li>
+    <li><span><strong>Macchiato</strong> – Espresso with a dollop of foam.</span></li>
+    <li><span><strong>Caffe Misto</strong> – One part coffe, one part steamed milk</span></li>
+    <li><span><strong>Cappuccino</strong> – One part espresso, one part milk, one part foam.</span></li>
+    <li><span><strong>Au Lait</strong> – Brewed coffee and steamed milk.</span></li>
+    <li><span><strong>Latte</strong> – Espresso and steamed milk, with a touch of foam.</span></li>
+    <li><span><strong>Mocha</strong> – Espresso, steamed milk, and chocolate.</span></li>
+    <li> <h3>Tea and more</h3> </li>
+    <li> <span><strong>Chai Tea</strong></span> </li>
+    <li> <span><strong>Hot Cider</strong> – Hot apple cider with cinnamon.</span> </li>
+    <li> <span><strong>Matcha</strong> – Matcha powder, blended with milk.</span> </li>
+    <li> <span><strong>London Fog</strong> – A delicious combination of steamed milk, earl grey tea, and vanilla.</span> </li>
+    <li> <span><strong>Hot Chocolate</strong> – Decadent rich hot cocoa.</span> </li>
+  </ul>
+
+</section>
+  </section>
+    <div id="jumbo" class="jumbotron text-center">
+
+      <form action="/messages" method="post">
+        <input type="text" placeholder="customer name" name="customer" >
+        <input type="text" placeholder="order" name="order" >
+        <button type="submit">Submit</button>
+      </form>
+
+
+        <p>Employee Login or Signup:</p>
+
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+
+    </div>
+
+</div>
+  <script src="differ.js"></script>
+</body>
+</html>
